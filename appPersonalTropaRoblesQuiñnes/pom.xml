@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    
+    <modelVersion>4.0.0</modelVersion>
+    
+    <!-- Información del proyecto -->
+    <groupId>sise.com.pe</groupId>
+    <artifactId>appPersonalTropaAlumno</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    
+    <!-- Dependencias del proyecto -->
+    <dependencies>
+        <!-- Dependencia de JCalendar -->
+        <dependency>
+            <groupId>com.toedter</groupId>
+            <artifactId>jcalendar</artifactId>
+            <version>1.4</version>
+        </dependency>
+        
+        <!-- Conector MySQL -->
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>8.0.33</version>
+        </dependency>
+    </dependencies>
+    
+    <!-- Propiedades del proyecto -->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>16</maven.compiler.source>
+        <maven.compiler.target>16</maven.compiler.target>
+    </properties>
+    
+    <!-- Plugin para ejecutar la aplicación -->
+    <build>
+        <plugins>
+            <!-- Plugin exec-maven para ejecutar la clase principal -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <!-- Nombre completo de la clase principal -->
+                    <mainClass>Capa_Presentacion.frmPersonalTropa</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    
+    <!-- Nombre del proyecto -->
+    <name>appPersonalTropaAlumno</name>
+</project>
