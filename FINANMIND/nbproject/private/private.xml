@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/FINANMIND/src/Capa_Datos/usuarios.java</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/FINANMIND/src/Capa_Conexion/ConexionSqlserver.java</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/FINANMIND/src/Capa_Datos/usuariosDAO.java</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/FINANMIND/src/Capa_Datos/ingresos.java</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/FINANMIND/src/Capa_Presenteacion/frmRegistrarse.java</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/FINANMIND/src/Capa_Negocio/neg_usuario.java</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/FINANMIND/src/Capa_Presenteacion/frmCliente.java</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/FINANMIND/src/Capa_Negocio/neg_ingreso.java</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/FINANMIND/src/Capa_Datos/ingresosDAO.java</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/FINANMIND/src/Capa_Presenteacion/frmIniciarSesion.java</file>
+        </group>
+    </open-files>
+</project-private>
